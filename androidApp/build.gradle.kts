@@ -3,6 +3,8 @@ import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
 plugins {
     id("com.android.application")
     kotlin("android")
+    id("org.jetbrains.compose")
+
 }
 
 android {
